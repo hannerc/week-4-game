@@ -49,7 +49,7 @@ console.log(typeof(Target));
 console.log(typeof(buttonValueOne));
 Target = Target - buttonValueOne;
 console.log(Target);
-    $("#target").append("<h1>"+Target+"<h1>");});
+    $("#target").html("<h1>"+Target+"<h1>");});
 
 var imageCrystal2 = $("<img>")
 .addClass("crystalbutton")
@@ -63,7 +63,7 @@ console.log(typeof(Target));
 console.log(typeof(buttonValueTwo));
 Target = Target - buttonValueTwo;
 console.log(Target);
-    $("#target").append("<h1>"+Target+"<h1>");});
+    $("#target").html("<h1>"+Target+"<h1>");});
 
 var imageCrystal3 = $("<img>")
 .addClass("crystalbutton")
@@ -77,7 +77,7 @@ console.log(typeof(Target));
 console.log(typeof(buttonValueThree));
 Target = Target - buttonValueThree;
 console.log(Target);
-    $("#target").append("<h1>"+Target+"<h1>");});
+    $("#target").html("<h1>"+Target+"<h1>");});
 
 var imageCrystal4 = $("<img>")
 .addClass("crystalbutton")
@@ -91,7 +91,7 @@ console.log(typeof(Target));
 console.log(typeof(buttonValueFour));
 Target = Target - buttonValueFour;
 console.log(Target);
-    $("#target").append("<h1>"+Target+"<h1>");});
+    $("#target").html("<h1>"+Target+"<h1>");});
 
 
 
