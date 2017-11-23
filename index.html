@@ -19,7 +19,9 @@
 <body>
 
 <div class="" id="target"></div>
-
+<div class="" id="UserGuess"></div>
+<div class="" id="wins"></div>
+<div class="" id="loss"></div>
 <div class="" id="scoreBoard"></div>
 <div class="crystalThumbs" id="crystals" style="height: 60px;""></div>
 
@@ -29,7 +31,10 @@
 
 
 // //display the target to the user
-$("#target").append("<h1>"+Target+"</h1>");
+$("#target").append("<h1>TARGET: "+Target+"</h1>");
+$("#UserGuess").append("<h1>YOUR NUMBER: "+UserGuess+"</h1>");
+$("#wins").append("<h1>WON: "+wins+"</h1>");
+$("#loss").append("<h1>LOST: "+loss+"</h1>");
 $("#crystals").append(imageCrystal1);
 $("#crystals").append(imageCrystal2);
 $("#crystals").append(imageCrystal3);
@@ -40,7 +45,7 @@ $("#crystals").append(imageCrystal4);
 // $("#target").append("<h1> HEY! </h1>");
 	
 // });
-console.log(buttonValueOne);
+
 //create crystal buttons and assign their value
 </script>
 </body>
