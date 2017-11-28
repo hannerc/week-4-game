@@ -1,0 +1,104 @@
+body{
+	background-image: url("../images/bg.jpg");
+}
+
+.target{
+color: #551a8b;
+	margin:auto;
+	padding:5px 0px 5px 0px;
+	width:50%;
+	background-color: #e0ffff;
+	text-align: center;
+	border-radius: 5px;
+	text-shadow: 2px 2px 4px #ffffff;
+
+
+}
+
+#UserGuess{
+	color: #FF69B4;
+	font-size: 100%;
+	margin:auto;
+}
+#UserGuess{
+font-size: 300%;
+color: #FF69B4;
+ text-shadow: 2px 2px 4px #ffffff;
+}
+
+.scoreBoard{
+	width:50%;
+	margin:auto;
+	height:100%;
+	color:#00E5EE;
+	font-size: 150%;
+	text-align: right;
+	text-shadow: 2px 2px 4px #000000;
+	
+}
+.display{
+	display: flex;
+	width: 50%;
+	margin:auto;
+	height:10%;
+	background-color: #b19cd9;
+	padding: 20px;
+	border-radius: 5px;
+	
+}
+p{
+margin:5px 2px 2px 0px;
+
+
+}
+.UserInput{
+	color: #551a8b;
+	margin:auto;
+	margin-bottom: 5px;
+	padding:5px 20px 5px 20px;
+	width:50%;
+	background-color: #FFB6C1;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.crystalholder{
+	width:50%;
+	margin:auto;
+	margin-bottom: 5px;
+	background-color: white;
+	border-radius: 10px;
+	padding:3px 20px 3px 20px;
+	display: flex;
+
+}
+.crystalbutton{
+	margin:0px 10px 0px 10px;
+	height:50px;
+	
+		}
+
+.instructions{
+border-radius: 5px;
+color: #551a8b;
+width:50%;
+margin:auto;
+background-color:#FFB6C1;
+padding:20px;
+
+}
+
+.title{
+	background-color: #e0ffff;
+	border-radius: 15px; 
+	margin:auto;
+	margin-bottom: 5px;
+	font-size: 200%;
+	color: #FF69B4;
+	text-align: center;
+	text-shadow: 2px 2px 4px #ffffff;
+
+
+width: 50%;
+padding:20px;
+}
